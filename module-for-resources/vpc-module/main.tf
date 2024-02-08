@@ -17,7 +17,7 @@ locals {
     "CreateBy"      = "Terraform-s6peter"
     "cloudProvider" = "aws"
   }
-  aws_region = "us-east-1"
+  aws_region = "us-east-2"
 
   cidr_block                       = "10.0.0.0/16"
   instance_tenancy                 = "default"
@@ -43,9 +43,9 @@ locals {
 
 
   aws_availability_zones = [
-    "us-east-1a",
-    "us-east-1b",
-    "us-east-1c",
+    "us-east-2a",
+    "us-east-2b",
+    "us-east-2c",
   ]
 
 
